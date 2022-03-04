@@ -1,23 +1,29 @@
 var today = moment().format("MMMM Do, YYYY - hh:mm a");
 var now = moment();
-var abtn = document.getElementById("buttn9")
+
 var thearea = document.getElementById("9AM")
 $("#currentDay").text(today);
 
-
-abtn.addEventListener('click', function() {
+// First Task
+$("#buttn9").on('click', function() {
     
     var thisthing = $('#9AM').val()
-    console.log(thisthing);
 
-    localStorage.setItem('item', thisthing)
+    localStorage.setItem('task9', thisthing)
 
 
 });
 
+var loadTask9 = function() {
+    var savedTask = localStorage.getItem('task9')
+    
+    $("#9AM").text(savedTask)
 
 
+    console.log(savedTask)
+}
 
+loadTask9();
 
 var audit9AM = function () {
 
@@ -36,6 +42,27 @@ var audit9AM = function () {
 };
 
 audit9AM();
+// Second
+
+$("#buttn10").on('click', function() {
+    
+    var thisthing = $('#10AM').val()
+
+    localStorage.setItem('task10', thisthing)
+
+
+});
+
+var loadTask10 = function() {
+    var savedTask = localStorage.getItem('task10')
+    
+    $("#10AM").text(savedTask)
+
+
+    console.log(savedTask)
+}
+
+loadTask10();
 
 var audit10AM = function () {
 
@@ -55,6 +82,26 @@ var audit10AM = function () {
 };
 
 audit10AM();
+// Third
+$("#buttn11").on('click', function() {
+    
+    var thisthing = $('#11AM').val()
+
+    localStorage.setItem('task11', thisthing)
+
+
+});
+
+var loadTask11 = function() {
+    var savedTask = localStorage.getItem('task11')
+    
+    $("#11AM").text(savedTask)
+
+
+    console.log(savedTask)
+}
+
+loadTask11();
 
 var audit11AM = function () {
 
@@ -74,6 +121,26 @@ var audit11AM = function () {
 };
 
 audit11AM();
+// Fourth
+$("#buttn12").on('click', function() {
+    
+    var thisthing = $('#12PM').val()
+
+    localStorage.setItem('task12', thisthing)
+
+
+});
+
+var loadTask12 = function() {
+    var savedTask = localStorage.getItem('task12')
+    
+    $("#12PM").text(savedTask)
+
+
+    console.log(savedTask)
+}
+
+loadTask12();
 
 var audit12PM = function () {
 
@@ -93,6 +160,28 @@ var audit12PM = function () {
 };
 
 audit12PM();
+// Fifth
+
+$("#buttn13").on('click', function() {
+    
+    var thisthing = $('#1PM').val()
+
+    localStorage.setItem('task13', thisthing)
+
+
+});
+
+var loadTask13 = function() {
+    var savedTask = localStorage.getItem('task13')
+    
+    $("#1PM").text(savedTask)
+
+
+    console.log(savedTask)
+}
+
+loadTask13();
+
 
 var audit1PM = function () {
 
@@ -113,6 +202,27 @@ var audit1PM = function () {
 
 audit1PM();
 
+// Sixth
+$("#buttn14").on('click', function() {
+    
+    var thisthing = $('#2PM').val()
+
+    localStorage.setItem('task14', thisthing)
+
+
+});
+
+var loadTask14 = function() {
+    var savedTask = localStorage.getItem('task14')
+    
+    $("#2PM").text(savedTask)
+
+
+    console.log(savedTask)
+}
+
+loadTask14();
+
 var audit2PM = function () {
 
 
@@ -131,6 +241,27 @@ var audit2PM = function () {
 };
 
 audit2PM();
+
+// Seventh
+$("#buttn15").on('click', function() {
+    
+    var thisthing = $('#3PM').val()
+
+    localStorage.setItem('task15', thisthing)
+
+
+});
+
+var loadTask15 = function() {
+    var savedTask = localStorage.getItem('task15')
+    
+    $("#3PM").text(savedTask)
+
+
+    console.log(savedTask)
+}
+
+loadTask15();
 
 var audit3PM = function () {
 
@@ -151,6 +282,27 @@ var audit3PM = function () {
 
 audit3PM();
 
+// Eighth
+$("#buttn16").on('click', function() {
+    
+    var thisthing = $('#4PM').val()
+
+    localStorage.setItem('task16', thisthing)
+
+
+});
+
+var loadTask16 = function() {
+    var savedTask = localStorage.getItem('task16')
+    
+    $("#4PM").text(savedTask)
+
+
+    console.log(savedTask)
+}
+
+loadTask16();
+
 var audit4PM = function () {
 
 
@@ -169,6 +321,27 @@ var audit4PM = function () {
 };
 
 audit4PM();
+
+// Ninth
+$("#buttn17").on('click', function() {
+    
+    var thisthing = $('5PM').val()
+
+    localStorage.setItem('task17', thisthing)
+
+
+});
+
+var loadTask17 = function() {
+    var savedTask = localStorage.getItem('task17')
+    
+    $("5PM").text(savedTask)
+
+
+    console.log(savedTask)
+}
+
+loadTask17();
 
 var audit5PM = function () {
 
