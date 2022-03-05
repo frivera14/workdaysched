@@ -42,9 +42,9 @@ audit9AM();
 
 $("#buttn10").on('click', function () {
 
-    var thisthing = $('#10AM').val()
+    var otherthing = $('#10AM').val()
 
-    localStorage.setItem('task10', thisthing)
+    localStorage.setItem('task10', otherthing)
 
 
 });
@@ -77,9 +77,9 @@ audit10AM();
 // Third
 $("#buttn11").on('click', function () {
 
-    var thisthing = $('#11AM').val()
+    var anotherone = $('#11AM').val()
 
-    localStorage.setItem('task11', thisthing)
+    localStorage.setItem('task11', anotherone)
 
 
 });
@@ -114,9 +114,9 @@ audit11AM();
 // Fourth
 $("#buttn12").on('click', function () {
 
-    var thisthing = $('#12PM').val()
+    var thirdthing = $('#12PM').val()
 
-    localStorage.setItem('task12', thisthing)
+    localStorage.setItem('task12', thirdthing)
 
 });
 
@@ -150,9 +150,9 @@ audit12PM();
 
 $("#buttn13").on('click', function () {
 
-    var thisthing = $('#1PM').val()
+    var fourththing = $('#1PM').val()
 
-    localStorage.setItem('task13', thisthing)
+    localStorage.setItem('task13', fourththing)
 });
 
 var loadTask13 = function () {
@@ -185,9 +185,9 @@ audit1PM();
 // Sixth
 $("#buttn14").on('click', function () {
 
-    var thisthing = $('#2PM').val()
+    var fifththing = $('#2PM').val()
 
-    localStorage.setItem('task14', thisthing)
+    localStorage.setItem('task14', fifththing)
 
 
 });
@@ -222,9 +222,9 @@ audit2PM();
 // Seventh
 $("#buttn15").on('click', function () {
 
-    var thisthing = $('#3PM').val()
+    var sixththing = $('#3PM').val()
 
-    localStorage.setItem('task15', thisthing)
+    localStorage.setItem('task15', sixththing)
 
 
 });
@@ -258,9 +258,9 @@ audit3PM();
 // Eighth
 $("#buttn16").on('click', function () {
 
-    var thisthing = $('#4PM').val()
+    var onemore = $('#4PM').val()
 
-    localStorage.setItem('task16', thisthing)
+    localStorage.setItem('task16', onemore)
 
 
 });
@@ -294,9 +294,9 @@ audit4PM();
 // Ninth
 $("#buttn17").on('click', function () {
 
-    var thisthing = $('#5PM').val()
+    var lastthing = $('#5PM').val()
 
-    localStorage.setItem('task17', thisthing)
+    localStorage.setItem('task17', lastthing)
 
 
 });
