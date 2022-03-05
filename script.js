@@ -5,8 +5,8 @@ var thearea = document.getElementById("9AM")
 $("#currentDay").text(today);
 
 // First Task
-$("#buttn9").on('click', function() {
-    
+$("#buttn9").on('click', function () {
+
     var thisthing = $('#9AM').val()
 
     localStorage.setItem('task9', thisthing)
@@ -14,12 +14,10 @@ $("#buttn9").on('click', function() {
 
 });
 
-var loadTask9 = function() {
+var loadTask9 = function () {
     var savedTask = localStorage.getItem('task9')
-    
+
     $("#9AM").text(savedTask)
-
-
 }
 
 loadTask9();
@@ -36,15 +34,14 @@ var audit9AM = function () {
         $("#9AM").addClass("future")
     } else if (moment().isBefore(limit)) {
         $("#9AM").addClass("present");
-
     }
 };
 
 audit9AM();
 // Second
 
-$("#buttn10").on('click', function() {
-    
+$("#buttn10").on('click', function () {
+
     var thisthing = $('#10AM').val()
 
     localStorage.setItem('task10', thisthing)
@@ -52,11 +49,9 @@ $("#buttn10").on('click', function() {
 
 });
 
-var loadTask10 = function() {
+var loadTask10 = function () {
     var savedTask = localStorage.getItem('task10')
-    
     $("#10AM").text(savedTask)
-
 }
 
 loadTask10();
@@ -80,8 +75,8 @@ var audit10AM = function () {
 
 audit10AM();
 // Third
-$("#buttn11").on('click', function() {
-    
+$("#buttn11").on('click', function () {
+
     var thisthing = $('#11AM').val()
 
     localStorage.setItem('task11', thisthing)
@@ -89,11 +84,10 @@ $("#buttn11").on('click', function() {
 
 });
 
-var loadTask11 = function() {
+var loadTask11 = function () {
     var savedTask = localStorage.getItem('task11')
-    
-    $("#11AM").text(savedTask)
 
+    $("#11AM").text(savedTask)
 
 }
 
@@ -118,21 +112,18 @@ var audit11AM = function () {
 
 audit11AM();
 // Fourth
-$("#buttn12").on('click', function() {
-    
+$("#buttn12").on('click', function () {
+
     var thisthing = $('#12PM').val()
 
     localStorage.setItem('task12', thisthing)
 
-
 });
 
-var loadTask12 = function() {
+var loadTask12 = function () {
     var savedTask = localStorage.getItem('task12')
-    
+
     $("#12PM").text(savedTask)
-
-
 }
 
 loadTask12();
@@ -157,20 +148,17 @@ var audit12PM = function () {
 audit12PM();
 // Fifth
 
-$("#buttn13").on('click', function() {
-    
+$("#buttn13").on('click', function () {
+
     var thisthing = $('#1PM').val()
 
     localStorage.setItem('task13', thisthing)
-
-
 });
 
-var loadTask13 = function() {
+var loadTask13 = function () {
     var savedTask = localStorage.getItem('task13')
-    
-    $("#1PM").text(savedTask)
 
+    $("#1PM").text(savedTask)
 
 }
 
@@ -185,20 +173,18 @@ var audit1PM = function () {
 
     if (moment().isAfter(limit)) {
         $("#1PM").addClass("past");
-
     } else if (moment().isBefore(time)) {
         $("#1PM").addClass("future")
     } else if (moment().isBefore(limit)) {
         $("#1PM").addClass("present");
-
     }
 };
 
 audit1PM();
 
 // Sixth
-$("#buttn14").on('click', function() {
-    
+$("#buttn14").on('click', function () {
+
     var thisthing = $('#2PM').val()
 
     localStorage.setItem('task14', thisthing)
@@ -206,9 +192,9 @@ $("#buttn14").on('click', function() {
 
 });
 
-var loadTask14 = function() {
+var loadTask14 = function () {
     var savedTask = localStorage.getItem('task14')
-    
+
     $("#2PM").text(savedTask)
 
 }
@@ -223,7 +209,6 @@ var audit2PM = function () {
 
     if (moment().isAfter(limit)) {
         $("#2PM").addClass("past");
-
     } else if (moment().isBefore(time)) {
         $("#2PM").addClass("future")
     } else if (moment().isBefore(limit)) {
@@ -235,8 +220,8 @@ var audit2PM = function () {
 audit2PM();
 
 // Seventh
-$("#buttn15").on('click', function() {
-    
+$("#buttn15").on('click', function () {
+
     var thisthing = $('#3PM').val()
 
     localStorage.setItem('task15', thisthing)
@@ -244,11 +229,10 @@ $("#buttn15").on('click', function() {
 
 });
 
-var loadTask15 = function() {
+var loadTask15 = function () {
     var savedTask = localStorage.getItem('task15')
-    
-    $("#3PM").text(savedTask)
 
+    $("#3PM").text(savedTask)
 
 }
 
@@ -262,20 +246,18 @@ var audit3PM = function () {
 
     if (moment().isAfter(limit)) {
         $("#3PM").addClass("past");
-
     } else if (moment().isBefore(time)) {
         $("#3PM").addClass("future")
     } else if (moment().isBefore(limit)) {
         $("#3PM").addClass("present");
-
     }
 };
 
 audit3PM();
 
 // Eighth
-$("#buttn16").on('click', function() {
-    
+$("#buttn16").on('click', function () {
+
     var thisthing = $('#4PM').val()
 
     localStorage.setItem('task16', thisthing)
@@ -283,12 +265,10 @@ $("#buttn16").on('click', function() {
 
 });
 
-var loadTask16 = function() {
+var loadTask16 = function () {
     var savedTask = localStorage.getItem('task16')
-    
+
     $("#4PM").text(savedTask)
-
-
 }
 
 loadTask16();
@@ -301,7 +281,6 @@ var audit4PM = function () {
 
     if (moment().isAfter(limit)) {
         $("#4PM").addClass("past");
-
     } else if (moment().isBefore(time)) {
         $("#4PM").addClass("future")
     } else if (moment().isBefore(limit)) {
@@ -313,8 +292,8 @@ var audit4PM = function () {
 audit4PM();
 
 // Ninth
-$("#buttn17").on('click', function() {
-    
+$("#buttn17").on('click', function () {
+
     var thisthing = $('5PM').val()
 
     localStorage.setItem('task17', thisthing)
@@ -322,9 +301,9 @@ $("#buttn17").on('click', function() {
 
 });
 
-var loadTask17 = function() {
+var loadTask17 = function () {
     var savedTask = localStorage.getItem('task17')
-    
+
     $("5PM").text(savedTask)
 
 }
@@ -339,7 +318,6 @@ var audit5PM = function () {
 
     if (moment().isAfter(limit)) {
         $("#5PM").addClass("past");
-
     } else if (moment().isBefore(time)) {
         $("#5PM").addClass("future")
     } else if (moment().isBefore(limit)) {
