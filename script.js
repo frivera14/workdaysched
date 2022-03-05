@@ -20,7 +20,6 @@ var loadTask9 = function() {
     $("#9AM").text(savedTask)
 
 
-    console.log(savedTask)
 }
 
 loadTask9();
@@ -58,8 +57,6 @@ var loadTask10 = function() {
     
     $("#10AM").text(savedTask)
 
-
-    console.log(savedTask)
 }
 
 loadTask10();
@@ -98,7 +95,6 @@ var loadTask11 = function() {
     $("#11AM").text(savedTask)
 
 
-    console.log(savedTask)
 }
 
 loadTask11();
@@ -137,7 +133,6 @@ var loadTask12 = function() {
     $("#12PM").text(savedTask)
 
 
-    console.log(savedTask)
 }
 
 loadTask12();
@@ -177,7 +172,6 @@ var loadTask13 = function() {
     $("#1PM").text(savedTask)
 
 
-    console.log(savedTask)
 }
 
 loadTask13();
@@ -217,8 +211,6 @@ var loadTask14 = function() {
     
     $("#2PM").text(savedTask)
 
-
-    console.log(savedTask)
 }
 
 loadTask14();
@@ -258,7 +250,6 @@ var loadTask15 = function() {
     $("#3PM").text(savedTask)
 
 
-    console.log(savedTask)
 }
 
 loadTask15();
@@ -298,7 +289,6 @@ var loadTask16 = function() {
     $("#4PM").text(savedTask)
 
 
-    console.log(savedTask)
 }
 
 loadTask16();
@@ -337,8 +327,6 @@ var loadTask17 = function() {
     
     $("5PM").text(savedTask)
 
-
-    console.log(savedTask)
 }
 
 loadTask17();
